@@ -20,7 +20,9 @@ Ubuntu webfonts cyrillic
 - eot
 
 ---
-__Source: Google Webfonts__
+### sources:
+- Google Webfonts
+
 ---
 ### Additional
 
