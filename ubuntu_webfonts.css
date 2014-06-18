@@ -1,0 +1,69 @@
+============================ WOFF ==============================================
+######### FF, Ch #########
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(Ubuntu_L_webfont.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(Ubuntu_B_webfont.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(Ubuntu_LI_webfont.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(Ubuntu_BI_webfont.woff) format('woff');
+}
+================================= EOT ==========================================
+######### IE #########
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Ubuntu_webfont.eot);
+  src: local('Ubuntu'), url(Ubuntu_webfont.eot) format('embedded-opentype'), url(Ubuntu_webfont.woff) format('woff');
+}
+================================= TTF ==========================================
+######### Safari #########
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(Ubuntu_L_webfont.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(Ubuntu_B_webfont.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), url(Ubuntu_LI_webfont.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), url(Ubuntu_BI_webfont.ttf) format('truetype');
+}
+================================= SVG ==========================================
+######### iPhone #########
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(Ubuntu_webfont.svg#Ubuntu) format('svg');
+}

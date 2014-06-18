@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Ubuntu';
+	src: font-url('Ubuntu_webfont.eot');
+  src: font-url('Ubuntu_webfont.eot') format('embedded-opentype'),
+    font-url('Ubuntu-webfont.woff') format('woff'),
+    font-url('Ubuntu_webfont.svg#Ubuntu') format('svg'),
+    font-url('Ubuntu_L_webfont.woff') format('woff'),
+    font-url('Ubuntu_L_webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu_LI_webfont.woff') format('woff'),
+    font-url('Ubuntu_LI_webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu_B_webfont.woff') format('woff'),
+    font-url('Ubuntu_B_webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu_BI_webfont.woff') format('woff'),
+    font-url('Ubuntu_BI_webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
